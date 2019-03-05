@@ -1,0 +1,24 @@
+{
+  "name": "fcm-oauth-gen",
+  "version": "1.0.0",
+  "description": "Generate an oAuth2.0 login credential set to use in Postman using a valid service-accounts json-file",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/feig-partner/fcm-oauth-gen.git"
+  },
+  "keywords": [
+    "fcm",
+    "oauth2"
+  ],
+  "author": "bastian_charlet <bc@fp.de>",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/feig-partner/fcm-oauth-gen#readme",
+  "dependencies": {
+    "googleapis": "^37.2.0"
+  }
+}
