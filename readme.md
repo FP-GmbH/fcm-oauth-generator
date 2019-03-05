@@ -37,5 +37,5 @@ This results in an OAuth2 token output that can be used in postman.
 
 * Create a POST Request
 * Set the URL to <https://fcm.googleapis.com/v1/projects/{{YOUR-FCM-PROJECT-ID}}/messages:send>
-* Set Authorization-Type to _Bearer Token_
+* Set Authorization-Type to _Bearer Token_ and set the scripts output as value.
 * Define a valid Request Body (See [FCM Docs](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#Notification))
