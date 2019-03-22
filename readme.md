@@ -8,16 +8,15 @@ such as Postman.
 ### Prerequisites
 
 * Make sure you have node.js installed
+* Have a FCM `service_accounts.json` File for Authentication (See [FCM Docs](https://firebase.google.com/docs/auth/admin/create-custom-tokens)
 
 ### Install
 ```bash
-git clone git@bitbucket.org:feig-partner/fcm-oauth-gen.git
+git clone <this repo>
 cd gcm-oauth-gen
 npm i
 cp <path-to-your-serviceaccounts-file> .
 ``` 
-
-See [FCM Docs](https://firebase.google.com/docs/cloud-messaging/migrate-v1#update-authorization-of-send-requests) on how to obtain a service-accounts.json 
 
 ### Usage
 
@@ -32,6 +31,8 @@ node index.js
 ```
 
 This results in an OAuth2 token output that can be used in postman.
+
+If you don't want to install node.js on your host, try using [Docker](https://www.docker.com/) with a [node.js image](https://hub.docker.com/_/node/)
 
 ### SetUp Postman
 
