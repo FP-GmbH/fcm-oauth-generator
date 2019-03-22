@@ -13,7 +13,7 @@ such as Postman.
 ### Install
 ```bash
 git clone <this repo>
-cd gcm-oauth-gen
+cd fcm-oauth-generator
 npm i
 cp <path-to-your-serviceaccounts-file> .
 ``` 
